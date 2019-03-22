@@ -1,0 +1,19 @@
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: test_data
+          group: kinesis-to-test_data
+          content-type: text/plain
+
+cloud:
+  aws:
+    credentials:
+      accessKey: 
+      secretKey:
+    region:
+      static: eu-west-1
+    stack:
+      auto: false

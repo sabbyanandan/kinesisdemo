@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kinesisconsumer/kinesisconsumer.iml" filepath="$PROJECT_DIR$/kinesisconsumer/kinesisconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kinesisdemo.iml" filepath="$PROJECT_DIR$/kinesisdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kinesisproducer/kinesisproducer.iml" filepath="$PROJECT_DIR$/kinesisproducer/kinesisproducer.iml" />
+    </modules>
+  </component>
+</project>
