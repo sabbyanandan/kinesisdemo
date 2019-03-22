@@ -25,8 +25,7 @@ cloud:
       auto: false
 ----
 
-NOTE:
-You can read more about the credentials and the other applicable properties in link:http://cloud.spring.io/spring-cloud-aws/spring-cloud-aws.html#_simple_credentials_configuration[Spring Cloud AWS reference guide].
+NOTE: You can read more about the credentials and the other applicable properties in link:http://cloud.spring.io/spring-cloud-aws/spring-cloud-aws.html#_simple_credentials_configuration[Spring Cloud AWS reference guide].
 
 ## Run
 
