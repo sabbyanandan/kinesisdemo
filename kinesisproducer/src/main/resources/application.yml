@@ -11,7 +11,7 @@ spring:
 cloud:
   aws:
     credentials:
-      accessKey: 
+      accessKey:
       secretKey:
     region:
       static: eu-west-1
