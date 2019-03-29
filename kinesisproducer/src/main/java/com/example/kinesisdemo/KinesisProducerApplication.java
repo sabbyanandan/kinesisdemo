@@ -24,11 +24,10 @@ public class KinesisProducerApplication {
 	private Source source;
 
 	@Scheduled(fixedRate = 20000L)
-	public String sendMessage() {
+	public void sendMessage() {
 		UUID id = UUID.randomUUID();
-		System.out.println("Before sending data: " + id);
-		source.output().send(MessageBuilder.withPayload("Hello: " + id).build());
-		System.out.println("After sending data: " + id);
-		return "ok, have fun with payload!";
+		System.out.println("Before sending : " + id);
+		source.output().send(MessageBuilder.withPayload(id).build());
+		System.out.println("After sending : " + id);
 	}
 }

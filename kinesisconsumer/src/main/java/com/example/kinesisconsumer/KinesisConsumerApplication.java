@@ -16,6 +16,6 @@ public class KinesisConsumerApplication {
 
 	@StreamListener("input")
 	public void input(String foo) {
-		System.out.println("The Recieved Payload: " + foo);
+		System.out.println("Hello: " + foo);
 	}
 }
