@@ -23,7 +23,7 @@ public class KinesisProducerApplication {
 	@Autowired
 	private Source source;
 
-	@Scheduled(fixedRate = 20000L)
+	@Scheduled(fixedRate = 2000L)
 	public void sendMessage() {
 		UUID id = UUID.randomUUID();
 		System.out.println("Before sending : " + id);
